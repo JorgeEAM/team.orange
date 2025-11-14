@@ -1,6 +1,10 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 whoami > consumptions.txt
+=======
+hostname > consumptions.txt
+>>>>>>> main
 
 for i in {1..3}
 do

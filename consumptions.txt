@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 root
 Running Iteration: 1
 top - 16:28:16 up  1:22,  0 user,  load average: 0.00, 0.00, 0.00
@@ -5,9 +6,18 @@ Tasks: 122 total,   1 running, 121 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.0 us,  0.0 sy, 10.0 ni, 90.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
 MiB Mem :   1903.4 total,    582.4 free,    483.3 used,   1030.7 buff/cache     
 MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem 
+=======
+ubuntu
+Running Iteration: 1
+top - 16:31:57 up  1:26,  0 user,  load average: 0.05, 0.02, 0.00
+Tasks: 123 total,   1 running, 122 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  8.3 sy,  8.3 ni, 83.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   1903.4 total,    586.2 free,    479.4 used,   1030.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1423.9 avail Mem 
+>>>>>>> main
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-      1 root      20   0   22080  13068   9356 S   0.0   0.7   0:02.43 systemd
+      1 root      20   0   22080  13068   9356 S   0.0   0.7   0:02.45 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
       3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
       4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
@@ -19,8 +29,13 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem
      13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
      14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
      15 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+<<<<<<< HEAD
      16 root      20   0       0      0      0 S   0.0   0.0   0:00.16 ksoftir+
      17 root      20   0       0      0      0 I   0.0   0.0   0:00.49 rcu_pre+
+=======
+     16 root      20   0       0      0      0 S   0.0   0.0   0:00.17 ksoftir+
+     17 root      20   0       0      0      0 I   0.0   0.0   0:00.51 rcu_pre+
+>>>>>>> main
      18 root      rt   0       0      0      0 S   0.0   0.0   0:00.02 migrati+
      19 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
      20 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
@@ -30,7 +45,11 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem
      25 root      20   0       0      0      0 S   0.0   0.0   0:00.00 khungta+
      26 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_rea+
      28 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+<<<<<<< HEAD
      29 root      20   0       0      0      0 S   0.0   0.0   0:00.19 kcompac+
+=======
+     29 root      20   0       0      0      0 S   0.0   0.0   0:00.20 kcompac+
+>>>>>>> main
      30 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd
      31 root      39  19       0      0      0 S   0.0   0.0   0:00.00 khugepa+
      32 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
@@ -84,7 +103,11 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem
     305 root      19  -1   34304  12936  11784 S   0.0   0.7   0:00.27 systemd+
     331 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     332 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+<<<<<<< HEAD
     333 root      rt   0  288952  27136   8704 S   0.0   1.4   0:00.45 multipa+
+=======
+    333 root      rt   0  288952  27136   8704 S   0.0   1.4   0:00.47 multipa+
+>>>>>>> main
     361 root      20   0   25960   7680   4992 S   0.0   0.4   0:00.15 systemd+
     373 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 psimon
     426 root      20   0       0      0      0 S   0.0   0.0   0:00.00 jbd2/vd+
@@ -93,8 +116,13 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem
     588 message+  20   0    9796   5504   4608 S   0.0   0.3   0:00.13 dbus-da+
     603 polkitd   20   0  383700   9744   7424 S   0.0   0.5   0:00.25 polkitd
     608 root      20   0   17616   8064   7040 S   0.0   0.4   0:00.06 systemd+
+<<<<<<< HEAD
     609 root      20   0  468956  13440  11392 S   0.0   0.7   0:00.16 udisksd
     625 root      20   0 1654564  48884  35072 S   0.0   2.5   0:04.68 contain+
+=======
+    609 root      20   0  468956  13440  11392 S   0.0   0.7   0:00.18 udisksd
+    625 root      20   0 1654564  48884  35072 S   0.0   2.5   0:04.88 contain+
+>>>>>>> main
     665 root      20   0  110016  22912  13568 S   0.0   1.2   0:00.14 unatten+
     727 root      20   0  392088  12928  10880 S   0.0   0.7   0:00.11 ModemMa+
     738 root      20   0    7224   2816   2560 S   0.0   0.1   0:00.01 cron
@@ -106,13 +134,18 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem
     814 dhcpcd    20   0    8388   1816   1024 S   0.0   0.1   0:00.00 dhcpcd
     815 dhcpcd    20   0    8388   1944   1152 S   0.0   0.1   0:00.00 dhcpcd
     850 dhcpcd    20   0    8412   2156   1280 S   0.0   0.1   0:00.00 dhcpcd
+<<<<<<< HEAD
     859 root      20   0 1824352  70384  51456 S   0.0   3.6   0:00.68 dockerd
+=======
+    859 root      20   0 1824352  70384  51456 S   0.0   3.6   0:00.71 dockerd
+>>>>>>> main
     882 dhcpcd    20   0    8412   2156   1280 S   0.0   0.1   0:00.00 dhcpcd
    1138 dhcpcd    20   0    8412   2284   1408 S   0.0   0.1   0:00.00 dhcpcd
    1166 systemd+  20   0   91024   7808   6912 S   0.0   0.4   0:00.06 systemd+
    1191 systemd+  20   0   21456  12928  10752 S   0.0   0.7   0:00.08 systemd+
    1195 root      20   0   12016   7936   6912 S   0.0   0.4   0:00.02 sshd
    1217 root      20   0  706160   4736   4096 S   0.0   0.2   0:00.01 runtime+
+<<<<<<< HEAD
    1227 root      39  19  852756  72140  33152 S   0.0   3.7   0:07.79 node
    1264 root       0 -20 1231188  12452   5376 S   0.0   0.6   0:09.84 runtime+
    1275 root      20   0    4324   3072   2944 S   0.0   0.2   0:00.00 bash
@@ -136,9 +169,35 @@ Tasks: 122 total,   1 running, 121 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.0 us,  9.1 sy,  0.0 ni, 90.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
 MiB Mem :   1903.4 total,    582.4 free,    483.3 used,   1030.7 buff/cache     
 MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem 
+=======
+   1227 root      39  19  852756  70944  33152 S   0.0   3.6   0:08.30 node
+   1264 root       0 -20 1231188  12460   5376 S   0.0   0.6   0:10.35 runtime+
+   1275 root      20   0    4324   3072   2944 S   0.0   0.2   0:00.00 bash
+   1276 root      20   0   10840   2048   1024 S   0.0   0.1   0:01.25 kc-term+
+   1680 root      20   0       0      0      0 I   0.0   0.0   0:00.10 kworker+
+   1788 root      20   0    4700   3968   3328 S   0.0   0.2   0:00.17 bash
+   1796 root      39  19  854492  77344  29440 S   0.0   4.0   0:13.08 node
+   1819 root      39  19    4588   3840   3328 S   0.0   0.2   0:00.24 bash
+   1839 root       0 -20       0      0      0 I   0.0   0.0   0:00.20 kworker+
+   2801 root      20   0       0      0      0 I   0.0   0.0   0:00.06 kworker+
+   2808 root      20   0       0      0      0 I   0.0   0.0   0:00.02 kworker+
+   3376 root      20   0       0      0      0 I   0.0   0.0   0:00.10 kworker+
+   4189 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   4641 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   4832 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   4954 root      20   0    4324   3200   2944 S   0.0   0.2   0:00.00 bash
+   4956 root      20   0    8932   5120   3072 R   0.0   0.3   0:00.00 top
+-----------------------------------------------------
+Running Iteration: 2
+top - 16:32:02 up  1:26,  0 user,  load average: 0.05, 0.02, 0.00
+Tasks: 123 total,   1 running, 122 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   1903.4 total,    586.2 free,    479.4 used,   1030.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1423.9 avail Mem 
+>>>>>>> main
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-      1 root      20   0   22080  13068   9356 S   0.0   0.7   0:02.43 systemd
+      1 root      20   0   22080  13068   9356 S   0.0   0.7   0:02.45 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
       3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
       4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
@@ -150,8 +209,13 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem
      13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
      14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
      15 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+<<<<<<< HEAD
      16 root      20   0       0      0      0 S   0.0   0.0   0:00.16 ksoftir+
      17 root      20   0       0      0      0 I   0.0   0.0   0:00.49 rcu_pre+
+=======
+     16 root      20   0       0      0      0 S   0.0   0.0   0:00.17 ksoftir+
+     17 root      20   0       0      0      0 I   0.0   0.0   0:00.51 rcu_pre+
+>>>>>>> main
      18 root      rt   0       0      0      0 S   0.0   0.0   0:00.02 migrati+
      19 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
      20 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
@@ -161,7 +225,11 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem
      25 root      20   0       0      0      0 S   0.0   0.0   0:00.00 khungta+
      26 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_rea+
      28 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+<<<<<<< HEAD
      29 root      20   0       0      0      0 S   0.0   0.0   0:00.19 kcompac+
+=======
+     29 root      20   0       0      0      0 S   0.0   0.0   0:00.20 kcompac+
+>>>>>>> main
      30 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd
      31 root      39  19       0      0      0 S   0.0   0.0   0:00.00 khugepa+
      32 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
@@ -215,7 +283,11 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem
     305 root      19  -1   34304  12936  11784 S   0.0   0.7   0:00.27 systemd+
     331 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     332 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+<<<<<<< HEAD
     333 root      rt   0  288952  27136   8704 S   0.0   1.4   0:00.45 multipa+
+=======
+    333 root      rt   0  288952  27136   8704 S   0.0   1.4   0:00.47 multipa+
+>>>>>>> main
     361 root      20   0   25960   7680   4992 S   0.0   0.4   0:00.15 systemd+
     373 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 psimon
     426 root      20   0       0      0      0 S   0.0   0.0   0:00.00 jbd2/vd+
@@ -224,8 +296,13 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem
     588 message+  20   0    9796   5504   4608 S   0.0   0.3   0:00.13 dbus-da+
     603 polkitd   20   0  383700   9744   7424 S   0.0   0.5   0:00.25 polkitd
     608 root      20   0   17616   8064   7040 S   0.0   0.4   0:00.06 systemd+
+<<<<<<< HEAD
     609 root      20   0  468956  13440  11392 S   0.0   0.7   0:00.16 udisksd
     625 root      20   0 1654564  48884  35072 S   0.0   2.5   0:04.68 contain+
+=======
+    609 root      20   0  468956  13440  11392 S   0.0   0.7   0:00.18 udisksd
+    625 root      20   0 1654564  48884  35072 S   0.0   2.5   0:04.88 contain+
+>>>>>>> main
     665 root      20   0  110016  22912  13568 S   0.0   1.2   0:00.14 unatten+
     727 root      20   0  392088  12928  10880 S   0.0   0.7   0:00.11 ModemMa+
     738 root      20   0    7224   2816   2560 S   0.0   0.1   0:00.01 cron
@@ -237,13 +314,18 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem
     814 dhcpcd    20   0    8388   1816   1024 S   0.0   0.1   0:00.00 dhcpcd
     815 dhcpcd    20   0    8388   1944   1152 S   0.0   0.1   0:00.00 dhcpcd
     850 dhcpcd    20   0    8412   2156   1280 S   0.0   0.1   0:00.00 dhcpcd
+<<<<<<< HEAD
     859 root      20   0 1824352  70384  51456 S   0.0   3.6   0:00.68 dockerd
+=======
+    859 root      20   0 1824352  70384  51456 S   0.0   3.6   0:00.71 dockerd
+>>>>>>> main
     882 dhcpcd    20   0    8412   2156   1280 S   0.0   0.1   0:00.00 dhcpcd
    1138 dhcpcd    20   0    8412   2284   1408 S   0.0   0.1   0:00.00 dhcpcd
    1166 systemd+  20   0   91024   7808   6912 S   0.0   0.4   0:00.06 systemd+
    1191 systemd+  20   0   21456  12928  10752 S   0.0   0.7   0:00.08 systemd+
    1195 root      20   0   12016   7936   6912 S   0.0   0.4   0:00.02 sshd
    1217 root      20   0  706160   4736   4096 S   0.0   0.2   0:00.01 runtime+
+<<<<<<< HEAD
    1227 root      39  19  852756  72268  33152 S   0.0   3.7   0:07.81 node
    1264 root       0 -20 1231188  12452   5376 S   0.0   0.6   0:09.86 runtime+
    1275 root      20   0    4324   3072   2944 S   0.0   0.2   0:00.00 bash
@@ -267,9 +349,35 @@ Tasks: 122 total,   1 running, 121 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
 MiB Mem :   1903.4 total,    582.4 free,    483.3 used,   1030.7 buff/cache     
 MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem 
+=======
+   1227 root      39  19  852756  71072  33152 S   0.0   3.6   0:08.31 node
+   1264 root       0 -20 1231188  12460   5376 S   0.0   0.6   0:10.35 runtime+
+   1275 root      20   0    4324   3072   2944 S   0.0   0.2   0:00.00 bash
+   1276 root      20   0   10840   2048   1024 S   0.0   0.1   0:01.25 kc-term+
+   1680 root      20   0       0      0      0 I   0.0   0.0   0:00.10 kworker+
+   1788 root      20   0    4700   3968   3328 S   0.0   0.2   0:00.17 bash
+   1796 root      39  19  854748  76964  29440 S   0.0   3.9   0:13.10 node
+   1819 root      39  19    4588   3840   3328 S   0.0   0.2   0:00.24 bash
+   1839 root       0 -20       0      0      0 I   0.0   0.0   0:00.20 kworker+
+   2801 root      20   0       0      0      0 I   0.0   0.0   0:00.06 kworker+
+   2808 root      20   0       0      0      0 I   0.0   0.0   0:00.02 kworker+
+   3376 root      20   0       0      0      0 I   0.0   0.0   0:00.10 kworker+
+   4189 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   4641 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   4832 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   4954 root      20   0    4324   3200   2944 S   0.0   0.2   0:00.00 bash
+   4971 root      20   0    8932   5120   3072 R   0.0   0.3   0:00.00 top
+-----------------------------------------------------
+Running Iteration: 3
+top - 16:32:08 up  1:26,  0 user,  load average: 0.04, 0.02, 0.00
+Tasks: 123 total,   1 running, 122 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   1903.4 total,    586.2 free,    479.4 used,   1030.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1423.9 avail Mem 
+>>>>>>> main
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-      1 root      20   0   22080  13068   9356 S   0.0   0.7   0:02.43 systemd
+      1 root      20   0   22080  13068   9356 S   0.0   0.7   0:02.45 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
       3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
       4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
@@ -281,8 +389,13 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem
      13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
      14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
      15 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+<<<<<<< HEAD
      16 root      20   0       0      0      0 S   0.0   0.0   0:00.16 ksoftir+
      17 root      20   0       0      0      0 I   0.0   0.0   0:00.49 rcu_pre+
+=======
+     16 root      20   0       0      0      0 S   0.0   0.0   0:00.17 ksoftir+
+     17 root      20   0       0      0      0 I   0.0   0.0   0:00.51 rcu_pre+
+>>>>>>> main
      18 root      rt   0       0      0      0 S   0.0   0.0   0:00.02 migrati+
      19 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
      20 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
@@ -292,7 +405,11 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem
      25 root      20   0       0      0      0 S   0.0   0.0   0:00.00 khungta+
      26 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_rea+
      28 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+<<<<<<< HEAD
      29 root      20   0       0      0      0 S   0.0   0.0   0:00.19 kcompac+
+=======
+     29 root      20   0       0      0      0 S   0.0   0.0   0:00.20 kcompac+
+>>>>>>> main
      30 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd
      31 root      39  19       0      0      0 S   0.0   0.0   0:00.00 khugepa+
      32 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
@@ -346,7 +463,11 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem
     305 root      19  -1   34304  12936  11784 S   0.0   0.7   0:00.27 systemd+
     331 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     332 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+<<<<<<< HEAD
     333 root      rt   0  288952  27136   8704 S   0.0   1.4   0:00.45 multipa+
+=======
+    333 root      rt   0  288952  27136   8704 S   0.0   1.4   0:00.47 multipa+
+>>>>>>> main
     361 root      20   0   25960   7680   4992 S   0.0   0.4   0:00.15 systemd+
     373 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 psimon
     426 root      20   0       0      0      0 S   0.0   0.0   0:00.00 jbd2/vd+
@@ -355,8 +476,13 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem
     588 message+  20   0    9796   5504   4608 S   0.0   0.3   0:00.13 dbus-da+
     603 polkitd   20   0  383700   9744   7424 S   0.0   0.5   0:00.25 polkitd
     608 root      20   0   17616   8064   7040 S   0.0   0.4   0:00.06 systemd+
+<<<<<<< HEAD
     609 root      20   0  468956  13440  11392 S   0.0   0.7   0:00.16 udisksd
     625 root      20   0 1654564  48884  35072 S   0.0   2.5   0:04.69 contain+
+=======
+    609 root      20   0  468956  13440  11392 S   0.0   0.7   0:00.18 udisksd
+    625 root      20   0 1654564  48884  35072 S   0.0   2.5   0:04.89 contain+
+>>>>>>> main
     665 root      20   0  110016  22912  13568 S   0.0   1.2   0:00.14 unatten+
     727 root      20   0  392088  12928  10880 S   0.0   0.7   0:00.11 ModemMa+
     738 root      20   0    7224   2816   2560 S   0.0   0.1   0:00.01 cron
@@ -368,13 +494,18 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem
     814 dhcpcd    20   0    8388   1816   1024 S   0.0   0.1   0:00.00 dhcpcd
     815 dhcpcd    20   0    8388   1944   1152 S   0.0   0.1   0:00.00 dhcpcd
     850 dhcpcd    20   0    8412   2156   1280 S   0.0   0.1   0:00.00 dhcpcd
+<<<<<<< HEAD
     859 root      20   0 1824352  70384  51456 S   0.0   3.6   0:00.68 dockerd
+=======
+    859 root      20   0 1824352  70384  51456 S   0.0   3.6   0:00.71 dockerd
+>>>>>>> main
     882 dhcpcd    20   0    8412   2156   1280 S   0.0   0.1   0:00.00 dhcpcd
    1138 dhcpcd    20   0    8412   2284   1408 S   0.0   0.1   0:00.00 dhcpcd
    1166 systemd+  20   0   91024   7808   6912 S   0.0   0.4   0:00.06 systemd+
    1191 systemd+  20   0   21456  12928  10752 S   0.0   0.7   0:00.08 systemd+
    1195 root      20   0   12016   7936   6912 S   0.0   0.4   0:00.02 sshd
    1217 root      20   0  706160   4736   4096 S   0.0   0.2   0:00.01 runtime+
+<<<<<<< HEAD
    1227 root      39  19  852756  72524  33152 S   0.0   3.7   0:07.83 node
    1264 root       0 -20 1231188  12452   5376 S   0.0   0.6   0:09.86 runtime+
    1275 root      20   0    4324   3072   2944 S   0.0   0.2   0:00.00 bash
@@ -391,3 +522,22 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1420.1 avail Mem
    4641 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
    4661 root      20   0    4324   3200   2944 S   0.0   0.2   0:00.00 bash
    4693 root      20   0    8932   5120   3072 R   0.0   0.3   0:00.00 top
+=======
+   1227 root      39  19  852756  71200  33152 S   0.0   3.7   0:08.32 node
+   1264 root       0 -20 1231188  12460   5376 S   0.0   0.6   0:10.35 runtime+
+   1275 root      20   0    4324   3072   2944 S   0.0   0.2   0:00.00 bash
+   1276 root      20   0   10840   2048   1024 S   0.0   0.1   0:01.25 kc-term+
+   1680 root      20   0       0      0      0 I   0.0   0.0   0:00.10 kworker+
+   1788 root      20   0    4700   3968   3328 S   0.0   0.2   0:00.17 bash
+   1796 root      39  19  854748  77348  29440 S   0.0   4.0   0:13.11 node
+   1819 root      39  19    4588   3840   3328 S   0.0   0.2   0:00.24 bash
+   1839 root       0 -20       0      0      0 I   0.0   0.0   0:00.20 kworker+
+   2801 root      20   0       0      0      0 I   0.0   0.0   0:00.06 kworker+
+   2808 root      20   0       0      0      0 I   0.0   0.0   0:00.02 kworker+
+   3376 root      20   0       0      0      0 I   0.0   0.0   0:00.10 kworker+
+   4189 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   4641 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   4832 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   4954 root      20   0    4324   3200   2944 S   0.0   0.2   0:00.00 bash
+   4986 root      20   0    8932   5120   3072 R   0.0   0.3   0:00.00 top
+>>>>>>> main
