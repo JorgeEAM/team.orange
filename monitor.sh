@@ -1,10 +1,12 @@
-#!/usr/bash
+#!/bin/bash
+
 for i in {1..3}
 do
-	echo "Running Iteration: $i"
-	top -b -n1 | grep "Cpu(s)" > consumptions.txt
-	if [ $i != 3 ]; then
-		echo "-----------------------------------------------------"
+	echo "Running Iteration: $i" >> consumptions.txt
+	top -b -n1   >> consumptions.txt
+	if [[ $i != 3 ]]
+  then
+		echo "-----------------------------------------------------" >> consumptions.txt
 	fi
-sleep 5
+  sleep 5
 done
