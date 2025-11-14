@@ -2,7 +2,7 @@
 
 hostname > consumptions.txt
 
-date >> consumptions.txt
+username >> consumptions.txt
 
 for i in {1..3}
 do
